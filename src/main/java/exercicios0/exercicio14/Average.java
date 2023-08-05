@@ -1,4 +1,4 @@
-package exercicos0.exercicio15;
+package exercicios0.exercicio14;
 
 import java.util.Scanner;
 
@@ -7,12 +7,12 @@ public class Average {
         Scanner scanner = new Scanner(System.in);
         int count = 0;
         double sum = 0;
-        do {
+        while (count < 50) {
             System.out.print("Digite um número: ");
             double number = scanner.nextDouble();
             sum += number;
             count++;
-        } while (count < 50);
+        }
         double average = sum / 50;
         System.out.println("A média aritmética dos números é: " + average);
     }
