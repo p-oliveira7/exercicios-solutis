@@ -1,4 +1,4 @@
-package exercicios0.exercicio9;
+package exercicios0.exercicio09;
 
 public class Quadrado {
     public static void main(String[] args) {
